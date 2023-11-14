@@ -565,9 +565,7 @@ function getIntegerPartNumber(number) {
  * 0.1, 0.2, 0.3 => 0.6
  */
 function getSumOfNumbers(x1, x2, x3) {
-  let result = 0;
-  result = x1 + x2 + x3;
-  return result;
+  return (x1 + x2 + x3).toFixed(2);
 }
 
 /**
